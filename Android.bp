@@ -157,6 +157,12 @@ android_app_import {
     owner: "xiaomi",
     apk: "proprietary/system/priv-app/MiuiCamera/MiuiCamera.apk",
     certificate: "platform",
+    overrides: [
+        "Aperture",
+        "Snap",
+        "Camera2",
+        "GoogleCameraGo",
+    ],
     dex_preopt: {
         enabled: false,
     },
